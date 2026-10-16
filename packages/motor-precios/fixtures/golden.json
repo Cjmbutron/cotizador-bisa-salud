@@ -1,0 +1,3738 @@
+[
+ {
+  "nombre": "S01_base_LP",
+  "entrada": {
+   "regional": "LPZ",
+   "aplicaSars": false,
+   "productos": [
+    "IG",
+    "RM",
+    "AD",
+    "MB",
+    "NP"
+   ],
+   "asegurados": [
+    {
+     "parentesco": "TITULAR",
+     "edad": 30,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "CONYUGE",
+     "edad": 28,
+     "sexo": "FEMENINO_CON_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 5,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 20,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 24,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 25,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 0,
+     "sexo": "MASCULINO"
+    }
+   ],
+   "redMax": {
+    "plan": "RM_700K"
+   },
+   "mundialBlue": {
+    "cobertura": "1MM",
+    "deducible": "5K",
+    "numeroHijos": 1
+   },
+   "naranjaPlus": {
+    "ambito": "MUNDIAL_CON_BOLIVIA",
+    "valorAsegurado": "1MM",
+    "deducible": "10K"
+   }
+  },
+  "personas": [
+   {
+    "idx": 0,
+    "excel": {
+     "IG": 66,
+     "RM": 412,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    },
+    "esperado": {
+     "IG": 66,
+     "RM": 412,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    }
+   },
+   {
+    "idx": 1,
+    "excel": {
+     "IG": 91,
+     "RM": 584,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 91,
+     "RM": 582,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 2,
+    "excel": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 3,
+    "excel": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 4,
+    "excel": {
+     "IG": 62,
+     "RM": 382,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 62,
+     "RM": 382,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 5,
+    "excel": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 6,
+    "excel": {
+     "IG": 91,
+     "RM": 584,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    },
+    "esperado": {
+     "IG": 91,
+     "RM": 584,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    }
+   }
+  ],
+  "totales": {
+   "IG": {
+    "mensual": 520,
+    "anual": 6240,
+    "contado": 6084
+   },
+   "RM": {
+    "mensual": 3271,
+    "anual": 39252,
+    "contado": 38271
+   },
+   "AD": {
+    "mensual": 1617,
+    "anual": 19404,
+    "contado": 18919
+   },
+   "MB": {
+    "mensual": 559,
+    "anual": 6708,
+    "contado": 6098
+   },
+   "NP": {
+    "mensual": 174,
+    "anual": 2088,
+    "contado": 1899
+   }
+  }
+ },
+ {
+  "nombre": "S02_sars_si",
+  "entrada": {
+   "regional": "LPZ",
+   "aplicaSars": true,
+   "productos": [
+    "IG",
+    "RM",
+    "AD",
+    "MB",
+    "NP"
+   ],
+   "asegurados": [
+    {
+     "parentesco": "TITULAR",
+     "edad": 30,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "CONYUGE",
+     "edad": 28,
+     "sexo": "FEMENINO_CON_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 5,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 20,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 24,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 25,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 0,
+     "sexo": "MASCULINO"
+    }
+   ],
+   "redMax": {
+    "plan": "RM_700K"
+   },
+   "mundialBlue": {
+    "cobertura": "1MM",
+    "deducible": "5K",
+    "numeroHijos": 1
+   },
+   "naranjaPlus": {
+    "ambito": "MUNDIAL_CON_BOLIVIA",
+    "valorAsegurado": "1MM",
+    "deducible": "10K"
+   }
+  },
+  "personas": [
+   {
+    "idx": 0,
+    "excel": {
+     "IG": 76,
+     "RM": 482,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    },
+    "esperado": {
+     "IG": 76,
+     "RM": 482,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    }
+   },
+   {
+    "idx": 1,
+    "excel": {
+     "IG": 101,
+     "RM": 654,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 101,
+     "RM": 652,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 2,
+    "excel": {
+     "IG": 78,
+     "RM": 497,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 78,
+     "RM": 497,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 3,
+    "excel": {
+     "IG": 81,
+     "RM": 512,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 81,
+     "RM": 512,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 4,
+    "excel": {
+     "IG": 72,
+     "RM": 452,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 72,
+     "RM": 452,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 5,
+    "excel": {
+     "IG": 81,
+     "RM": 512,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 81,
+     "RM": 512,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 6,
+    "excel": {
+     "IG": 101,
+     "RM": 654,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    },
+    "esperado": {
+     "IG": 101,
+     "RM": 654,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    }
+   }
+  ],
+  "totales": {
+   "IG": {
+    "mensual": 590,
+    "anual": 7080,
+    "contado": 6903
+   },
+   "RM": {
+    "mensual": 3761,
+    "anual": 45132,
+    "contado": 44004
+   },
+   "AD": {
+    "mensual": 1617,
+    "anual": 19404,
+    "contado": 18919
+   },
+   "MB": {
+    "mensual": 559,
+    "anual": 6708,
+    "contado": 6098
+   },
+   "NP": {
+    "mensual": 174,
+    "anual": 2088,
+    "contado": 1899
+   }
+  }
+ },
+ {
+  "nombre": "S03_santacruz",
+  "entrada": {
+   "regional": "SCZ",
+   "aplicaSars": false,
+   "productos": [
+    "IG",
+    "RM",
+    "AD",
+    "MB",
+    "NP"
+   ],
+   "asegurados": [
+    {
+     "parentesco": "TITULAR",
+     "edad": 30,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "CONYUGE",
+     "edad": 28,
+     "sexo": "FEMENINO_CON_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 5,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 20,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 24,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 25,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 0,
+     "sexo": "MASCULINO"
+    }
+   ],
+   "redMax": {
+    "plan": "RM_700K"
+   },
+   "mundialBlue": {
+    "cobertura": "1MM",
+    "deducible": "5K",
+    "numeroHijos": 1
+   },
+   "naranjaPlus": {
+    "ambito": "MUNDIAL_CON_BOLIVIA",
+    "valorAsegurado": "1MM",
+    "deducible": "10K"
+   }
+  },
+  "personas": [
+   {
+    "idx": 0,
+    "excel": {
+     "IG": 80,
+     "RM": 465,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    },
+    "esperado": {
+     "IG": 80,
+     "RM": 465,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    }
+   },
+   {
+    "idx": 1,
+    "excel": {
+     "IG": 111,
+     "RM": 682,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 107,
+     "RM": 657,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 2,
+    "excel": {
+     "IG": 83,
+     "RM": 487,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 83,
+     "RM": 487,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 3,
+    "excel": {
+     "IG": 87,
+     "RM": 517,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 87,
+     "RM": 517,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 4,
+    "excel": {
+     "IG": 76,
+     "RM": 435,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 76,
+     "RM": 435,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 5,
+    "excel": {
+     "IG": 87,
+     "RM": 517,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 87,
+     "RM": 517,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 6,
+    "excel": {
+     "IG": 111,
+     "RM": 682,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    },
+    "esperado": {
+     "IG": 111,
+     "RM": 682,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    }
+   }
+  ],
+  "totales": {
+   "IG": {
+    "mensual": 631,
+    "anual": 7572,
+    "contado": 7383
+   },
+   "RM": {
+    "mensual": 3760,
+    "anual": 45120,
+    "contado": 43992
+   },
+   "AD": {
+    "mensual": 1617,
+    "anual": 19404,
+    "contado": 18919
+   },
+   "MB": {
+    "mensual": 559,
+    "anual": 6708,
+    "contado": 6098
+   },
+   "NP": {
+    "mensual": 174,
+    "anual": 2088,
+    "contado": 1899
+   }
+  }
+ },
+ {
+  "nombre": "S04_cochabamba",
+  "entrada": {
+   "regional": "CBBA",
+   "aplicaSars": false,
+   "productos": [
+    "IG",
+    "RM",
+    "AD",
+    "MB",
+    "NP"
+   ],
+   "asegurados": [
+    {
+     "parentesco": "TITULAR",
+     "edad": 30,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "CONYUGE",
+     "edad": 28,
+     "sexo": "FEMENINO_CON_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 5,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 20,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 24,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 25,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 0,
+     "sexo": "MASCULINO"
+    }
+   ],
+   "redMax": {
+    "plan": "RM_700K"
+   },
+   "mundialBlue": {
+    "cobertura": "1MM",
+    "deducible": "5K",
+    "numeroHijos": 1
+   },
+   "naranjaPlus": {
+    "ambito": "MUNDIAL_CON_BOLIVIA",
+    "valorAsegurado": "1MM",
+    "deducible": "10K"
+   }
+  },
+  "personas": [
+   {
+    "idx": 0,
+    "excel": {
+     "IG": 62,
+     "RM": 382,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    },
+    "esperado": {
+     "IG": 62,
+     "RM": 382,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    }
+   },
+   {
+    "idx": 1,
+    "excel": {
+     "IG": 89,
+     "RM": 570,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 88,
+     "RM": 567,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 2,
+    "excel": {
+     "IG": 65,
+     "RM": 405,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 65,
+     "RM": 405,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 3,
+    "excel": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 4,
+    "excel": {
+     "IG": 60,
+     "RM": 367,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 60,
+     "RM": 367,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 5,
+    "excel": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 6,
+    "excel": {
+     "IG": 89,
+     "RM": 570,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    },
+    "esperado": {
+     "IG": 89,
+     "RM": 570,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    }
+   }
+  ],
+  "totales": {
+   "IG": {
+    "mensual": 500,
+    "anual": 6000,
+    "contado": 5850
+   },
+   "RM": {
+    "mensual": 3145,
+    "anual": 37740,
+    "contado": 36797
+   },
+   "AD": {
+    "mensual": 1617,
+    "anual": 19404,
+    "contado": 18919
+   },
+   "MB": {
+    "mensual": 559,
+    "anual": 6708,
+    "contado": 6098
+   },
+   "NP": {
+    "mensual": 174,
+    "anual": 2088,
+    "contado": 1899
+   }
+  }
+ },
+ {
+  "nombre": "S05_chuquisaca",
+  "entrada": {
+   "regional": "CHQ",
+   "aplicaSars": false,
+   "productos": [
+    "IG",
+    "RM",
+    "AD",
+    "MB",
+    "NP"
+   ],
+   "asegurados": [
+    {
+     "parentesco": "TITULAR",
+     "edad": 30,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "CONYUGE",
+     "edad": 28,
+     "sexo": "FEMENINO_CON_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 5,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 20,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 24,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 25,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 0,
+     "sexo": "MASCULINO"
+    }
+   ],
+   "redMax": {
+    "plan": "RM_700K"
+   },
+   "mundialBlue": {
+    "cobertura": "1MM",
+    "deducible": "5K",
+    "numeroHijos": 1
+   },
+   "naranjaPlus": {
+    "ambito": "MUNDIAL_CON_BOLIVIA",
+    "valorAsegurado": "1MM",
+    "deducible": "10K"
+   }
+  },
+  "personas": [
+   {
+    "idx": 0,
+    "excel": {
+     "IG": 60,
+     "RM": 367,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    },
+    "esperado": {
+     "IG": 60,
+     "RM": 367,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    }
+   },
+   {
+    "idx": 1,
+    "excel": {
+     "IG": 85,
+     "RM": 540,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 87,
+     "RM": 560,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 2,
+    "excel": {
+     "IG": 61,
+     "RM": 375,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 61,
+     "RM": 375,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 3,
+    "excel": {
+     "IG": 67,
+     "RM": 420,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 67,
+     "RM": 420,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 4,
+    "excel": {
+     "IG": 59,
+     "RM": 360,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 59,
+     "RM": 360,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 5,
+    "excel": {
+     "IG": 67,
+     "RM": 420,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 67,
+     "RM": 420,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 6,
+    "excel": {
+     "IG": 82,
+     "RM": 525,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    },
+    "esperado": {
+     "IG": 82,
+     "RM": 525,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    }
+   }
+  ],
+  "totales": {
+   "IG": {
+    "mensual": 483,
+    "anual": 5796,
+    "contado": 5652
+   },
+   "RM": {
+    "mensual": 3027,
+    "anual": 36324,
+    "contado": 35416
+   },
+   "AD": {
+    "mensual": 1617,
+    "anual": 19404,
+    "contado": 18919
+   },
+   "MB": {
+    "mensual": 559,
+    "anual": 6708,
+    "contado": 6098
+   },
+   "NP": {
+    "mensual": 174,
+    "anual": 2088,
+    "contado": 1899
+   }
+  }
+ },
+ {
+  "nombre": "S06_tarija",
+  "entrada": {
+   "regional": "TJA",
+   "aplicaSars": false,
+   "productos": [
+    "IG",
+    "RM",
+    "AD",
+    "MB",
+    "NP"
+   ],
+   "asegurados": [
+    {
+     "parentesco": "TITULAR",
+     "edad": 30,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "CONYUGE",
+     "edad": 28,
+     "sexo": "FEMENINO_CON_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 5,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 20,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 24,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 25,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 0,
+     "sexo": "MASCULINO"
+    }
+   ],
+   "redMax": {
+    "plan": "RM_700K"
+   },
+   "mundialBlue": {
+    "cobertura": "1MM",
+    "deducible": "5K",
+    "numeroHijos": 1
+   },
+   "naranjaPlus": {
+    "ambito": "MUNDIAL_CON_BOLIVIA",
+    "valorAsegurado": "1MM",
+    "deducible": "10K"
+   }
+  },
+  "personas": [
+   {
+    "idx": 0,
+    "excel": {
+     "IG": 60,
+     "RM": 367,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    },
+    "esperado": {
+     "IG": 60,
+     "RM": 367,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    }
+   },
+   {
+    "idx": 1,
+    "excel": {
+     "IG": 85,
+     "RM": 540,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 87,
+     "RM": 560,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 2,
+    "excel": {
+     "IG": 61,
+     "RM": 375,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 61,
+     "RM": 375,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 3,
+    "excel": {
+     "IG": 67,
+     "RM": 420,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 67,
+     "RM": 420,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 4,
+    "excel": {
+     "IG": 59,
+     "RM": 360,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 59,
+     "RM": 360,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 5,
+    "excel": {
+     "IG": 67,
+     "RM": 420,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 67,
+     "RM": 420,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 6,
+    "excel": {
+     "IG": 82,
+     "RM": 525,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    },
+    "esperado": {
+     "IG": 82,
+     "RM": 525,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    }
+   }
+  ],
+  "totales": {
+   "IG": {
+    "mensual": 483,
+    "anual": 5796,
+    "contado": 5652
+   },
+   "RM": {
+    "mensual": 3027,
+    "anual": 36324,
+    "contado": 35416
+   },
+   "AD": {
+    "mensual": 1617,
+    "anual": 19404,
+    "contado": 18919
+   },
+   "MB": {
+    "mensual": 559,
+    "anual": 6708,
+    "contado": 6098
+   },
+   "NP": {
+    "mensual": 174,
+    "anual": 2088,
+    "contado": 1899
+   }
+  }
+ },
+ {
+  "nombre": "S07_redmax140",
+  "entrada": {
+   "regional": "LPZ",
+   "aplicaSars": false,
+   "productos": [
+    "IG",
+    "RM",
+    "AD",
+    "MB",
+    "NP"
+   ],
+   "asegurados": [
+    {
+     "parentesco": "TITULAR",
+     "edad": 30,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "CONYUGE",
+     "edad": 28,
+     "sexo": "FEMENINO_CON_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 5,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 20,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 24,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 25,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 0,
+     "sexo": "MASCULINO"
+    }
+   ],
+   "redMax": {
+    "plan": "RM_140K"
+   },
+   "mundialBlue": {
+    "cobertura": "1MM",
+    "deducible": "5K",
+    "numeroHijos": 1
+   },
+   "naranjaPlus": {
+    "ambito": "MUNDIAL_CON_BOLIVIA",
+    "valorAsegurado": "1MM",
+    "deducible": "10K"
+   }
+  },
+  "personas": [
+   {
+    "idx": 0,
+    "excel": {
+     "IG": 66,
+     "RM": 384,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    },
+    "esperado": {
+     "IG": 66,
+     "RM": 384,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    }
+   },
+   {
+    "idx": 1,
+    "excel": {
+     "IG": 91,
+     "RM": 556,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 91,
+     "RM": 554,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 2,
+    "excel": {
+     "IG": 68,
+     "RM": 399,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 68,
+     "RM": 399,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 3,
+    "excel": {
+     "IG": 71,
+     "RM": 414,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 71,
+     "RM": 414,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 4,
+    "excel": {
+     "IG": 62,
+     "RM": 354,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 62,
+     "RM": 354,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 5,
+    "excel": {
+     "IG": 71,
+     "RM": 414,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 71,
+     "RM": 414,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 6,
+    "excel": {
+     "IG": 91,
+     "RM": 556,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    },
+    "esperado": {
+     "IG": 91,
+     "RM": 556,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    }
+   }
+  ],
+  "totales": {
+   "IG": {
+    "mensual": 520,
+    "anual": 6240,
+    "contado": 6084
+   },
+   "RM": {
+    "mensual": 3075,
+    "anual": 36900,
+    "contado": 35978
+   },
+   "AD": {
+    "mensual": 1617,
+    "anual": 19404,
+    "contado": 18919
+   },
+   "MB": {
+    "mensual": 559,
+    "anual": 6708,
+    "contado": 6098
+   },
+   "NP": {
+    "mensual": 174,
+    "anual": 2088,
+    "contado": 1899
+   }
+  }
+ },
+ {
+  "nombre": "S08_redmax70",
+  "entrada": {
+   "regional": "LPZ",
+   "aplicaSars": false,
+   "productos": [
+    "IG",
+    "RM",
+    "AD",
+    "MB",
+    "NP"
+   ],
+   "asegurados": [
+    {
+     "parentesco": "TITULAR",
+     "edad": 30,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "CONYUGE",
+     "edad": 28,
+     "sexo": "FEMENINO_CON_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 5,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 20,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 24,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 25,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 0,
+     "sexo": "MASCULINO"
+    }
+   ],
+   "redMax": {
+    "plan": "RM_70K"
+   },
+   "mundialBlue": {
+    "cobertura": "1MM",
+    "deducible": "5K",
+    "numeroHijos": 1
+   },
+   "naranjaPlus": {
+    "ambito": "MUNDIAL_CON_BOLIVIA",
+    "valorAsegurado": "1MM",
+    "deducible": "10K"
+   }
+  },
+  "personas": [
+   {
+    "idx": 0,
+    "excel": {
+     "IG": 66,
+     "RM": 363,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    },
+    "esperado": {
+     "IG": 66,
+     "RM": 363,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    }
+   },
+   {
+    "idx": 1,
+    "excel": {
+     "IG": 91,
+     "RM": 535,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 91,
+     "RM": 533,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 2,
+    "excel": {
+     "IG": 68,
+     "RM": 378,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 68,
+     "RM": 378,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 3,
+    "excel": {
+     "IG": 71,
+     "RM": 393,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 71,
+     "RM": 393,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 4,
+    "excel": {
+     "IG": 62,
+     "RM": 333,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 62,
+     "RM": 333,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 5,
+    "excel": {
+     "IG": 71,
+     "RM": 393,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 71,
+     "RM": 393,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 6,
+    "excel": {
+     "IG": 91,
+     "RM": 535,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    },
+    "esperado": {
+     "IG": 91,
+     "RM": 535,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    }
+   }
+  ],
+  "totales": {
+   "IG": {
+    "mensual": 520,
+    "anual": 6240,
+    "contado": 6084
+   },
+   "RM": {
+    "mensual": 2928,
+    "anual": 35136,
+    "contado": 34258
+   },
+   "AD": {
+    "mensual": 1617,
+    "anual": 19404,
+    "contado": 18919
+   },
+   "MB": {
+    "mensual": 559,
+    "anual": 6708,
+    "contado": 6098
+   },
+   "NP": {
+    "mensual": 174,
+    "anual": 2088,
+    "contado": 1899
+   }
+  }
+ },
+ {
+  "nombre": "S09_redmax140_sars",
+  "entrada": {
+   "regional": "LPZ",
+   "aplicaSars": true,
+   "productos": [
+    "IG",
+    "RM",
+    "AD",
+    "MB",
+    "NP"
+   ],
+   "asegurados": [
+    {
+     "parentesco": "TITULAR",
+     "edad": 30,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "CONYUGE",
+     "edad": 28,
+     "sexo": "FEMENINO_CON_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 5,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 20,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 24,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 25,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 0,
+     "sexo": "MASCULINO"
+    }
+   ],
+   "redMax": {
+    "plan": "RM_140K"
+   },
+   "mundialBlue": {
+    "cobertura": "1MM",
+    "deducible": "5K",
+    "numeroHijos": 1
+   },
+   "naranjaPlus": {
+    "ambito": "MUNDIAL_CON_BOLIVIA",
+    "valorAsegurado": "1MM",
+    "deducible": "10K"
+   }
+  },
+  "personas": [
+   {
+    "idx": 0,
+    "excel": {
+     "IG": 76,
+     "RM": 454,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    },
+    "esperado": {
+     "IG": 76,
+     "RM": 454,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    }
+   },
+   {
+    "idx": 1,
+    "excel": {
+     "IG": 101,
+     "RM": 626,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 101,
+     "RM": 624,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 2,
+    "excel": {
+     "IG": 78,
+     "RM": 469,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 78,
+     "RM": 469,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 3,
+    "excel": {
+     "IG": 81,
+     "RM": 484,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 81,
+     "RM": 484,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 4,
+    "excel": {
+     "IG": 72,
+     "RM": 424,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 72,
+     "RM": 424,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 5,
+    "excel": {
+     "IG": 81,
+     "RM": 484,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 81,
+     "RM": 484,
+     "AD": 231,
+     "MB": 121,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 6,
+    "excel": {
+     "IG": 101,
+     "RM": 626,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    },
+    "esperado": {
+     "IG": 101,
+     "RM": 626,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    }
+   }
+  ],
+  "totales": {
+   "IG": {
+    "mensual": 590,
+    "anual": 7080,
+    "contado": 6903
+   },
+   "RM": {
+    "mensual": 3565,
+    "anual": 42780,
+    "contado": 41711
+   },
+   "AD": {
+    "mensual": 1617,
+    "anual": 19404,
+    "contado": 18919
+   },
+   "MB": {
+    "mensual": 559,
+    "anual": 6708,
+    "contado": 6098
+   },
+   "NP": {
+    "mensual": 174,
+    "anual": 2088,
+    "contado": 1899
+   }
+  }
+ },
+ {
+  "nombre": "S10_limites_edad",
+  "entrada": {
+   "regional": "LPZ",
+   "aplicaSars": false,
+   "productos": [
+    "IG",
+    "RM",
+    "AD",
+    "MB",
+    "NP"
+   ],
+   "asegurados": [
+    {
+     "parentesco": "TITULAR",
+     "edad": 64,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "CONYUGE",
+     "edad": 65,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 99,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 18,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 17,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 64,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 0,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    }
+   ],
+   "redMax": {
+    "plan": "RM_700K"
+   },
+   "mundialBlue": {
+    "cobertura": "1MM",
+    "deducible": "5K",
+    "numeroHijos": 1
+   },
+   "naranjaPlus": {
+    "ambito": "MUNDIAL_CON_BOLIVIA",
+    "valorAsegurado": "1MM",
+    "deducible": "10K"
+   }
+  },
+  "personas": [
+   {
+    "idx": 0,
+    "excel": {
+     "IG": 190,
+     "RM": 1281,
+     "AD": 231,
+     "MB": 421,
+     "NP": 112
+    },
+    "esperado": {
+     "IG": 190,
+     "RM": 1281,
+     "AD": 231,
+     "MB": 421,
+     "NP": 112
+    }
+   },
+   {
+    "idx": 1,
+    "excel": {
+     "IG": "N/A",
+     "RM": "N/A",
+     "AD": "N/A",
+     "MB": 424,
+     "NP": "N/A"
+    },
+    "esperado": {
+     "IG": "N/A",
+     "RM": "N/A",
+     "AD": "N/A",
+     "MB": 424,
+     "NP": "N/A"
+    }
+   },
+   {
+    "idx": 2,
+    "excel": {
+     "IG": "N/A",
+     "RM": "N/A",
+     "AD": "N/A",
+     "MB": "N/A",
+     "NP": "N/A"
+    },
+    "esperado": {
+     "IG": "N/A",
+     "RM": "N/A",
+     "AD": "N/A",
+     "MB": "N/A",
+     "NP": "N/A"
+    }
+   },
+   {
+    "idx": 3,
+    "excel": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 4,
+    "excel": {
+     "IG": 65,
+     "RM": 405,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 65,
+     "RM": 405,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 5,
+    "excel": {
+     "IG": 190,
+     "RM": 1281,
+     "AD": 231,
+     "MB": 421,
+     "NP": 112
+    },
+    "esperado": {
+     "IG": 190,
+     "RM": 1281,
+     "AD": 231,
+     "MB": 421,
+     "NP": 112
+    }
+   },
+   {
+    "idx": 6,
+    "excel": {
+     "IG": 92,
+     "RM": 592,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    },
+    "esperado": {
+     "IG": 92,
+     "RM": 592,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    }
+   }
+  ],
+  "totales": {
+   "IG": {
+    "mensual": 605,
+    "anual": 7260,
+    "contado": 7079
+   },
+   "RM": {
+    "mensual": 3986,
+    "anual": 47832,
+    "contado": 46637
+   },
+   "AD": {
+    "mensual": 1155,
+    "anual": 13860,
+    "contado": 13514
+   },
+   "MB": {
+    "mensual": 1398,
+    "anual": 16776,
+    "contado": 15250
+   },
+   "NP": {
+    "mensual": 280,
+    "anual": 3360,
+    "contado": 3055
+   }
+  }
+ },
+ {
+  "nombre": "S11_maternidad_limites",
+  "entrada": {
+   "regional": "LPZ",
+   "aplicaSars": false,
+   "productos": [
+    "IG",
+    "RM",
+    "AD",
+    "MB",
+    "NP"
+   ],
+   "asegurados": [
+    {
+     "parentesco": "TITULAR",
+     "edad": 19,
+     "sexo": "FEMENINO_CON_MATERNIDAD"
+    },
+    {
+     "parentesco": "CONYUGE",
+     "edad": 49,
+     "sexo": "FEMENINO_CON_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 50,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 18,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 74,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 75,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 3,
+     "sexo": "MASCULINO"
+    }
+   ],
+   "redMax": {
+    "plan": "RM_700K"
+   },
+   "mundialBlue": {
+    "cobertura": "1MM",
+    "deducible": "5K",
+    "numeroHijos": 1
+   },
+   "naranjaPlus": {
+    "ambito": "MUNDIAL_CON_BOLIVIA",
+    "valorAsegurado": "1MM",
+    "deducible": "10K"
+   }
+  },
+  "personas": [
+   {
+    "idx": 0,
+    "excel": {
+     "IG": 91,
+     "RM": 584,
+     "AD": 231,
+     "MB": 109,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 91,
+     "RM": 582,
+     "AD": 231,
+     "MB": 109,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 1,
+    "excel": {
+     "IG": 108,
+     "RM": 704,
+     "AD": 231,
+     "MB": 205,
+     "NP": 51
+    },
+    "esperado": {
+     "IG": 118,
+     "RM": 777,
+     "AD": 231,
+     "MB": 205,
+     "NP": 51
+    }
+   },
+   {
+    "idx": 2,
+    "excel": {
+     "IG": 108,
+     "RM": 704,
+     "AD": 231,
+     "MB": 224,
+     "NP": 61
+    },
+    "esperado": {
+     "IG": 108,
+     "RM": 704,
+     "AD": 231,
+     "MB": 224,
+     "NP": 61
+    }
+   },
+   {
+    "idx": 3,
+    "excel": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 4,
+    "excel": {
+     "IG": "N/A",
+     "RM": "N/A",
+     "AD": "N/A",
+     "MB": 824,
+     "NP": "N/A"
+    },
+    "esperado": {
+     "IG": "N/A",
+     "RM": "N/A",
+     "AD": "N/A",
+     "MB": 824,
+     "NP": "N/A"
+    }
+   },
+   {
+    "idx": 5,
+    "excel": {
+     "IG": "N/A",
+     "RM": "N/A",
+     "AD": "N/A",
+     "MB": "N/A",
+     "NP": "N/A"
+    },
+    "esperado": {
+     "IG": "N/A",
+     "RM": "N/A",
+     "AD": "N/A",
+     "MB": "N/A",
+     "NP": "N/A"
+    }
+   },
+   {
+    "idx": 6,
+    "excel": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   }
+  ],
+  "totales": {
+   "IG": {
+    "mensual": 453,
+    "anual": 5436,
+    "contado": 5301
+   },
+   "RM": {
+    "mensual": 2917,
+    "anual": 35004,
+    "contado": 34129
+   },
+   "AD": {
+    "mensual": 1155,
+    "anual": 13860,
+    "contado": 13514
+   },
+   "MB": {
+    "mensual": 1450,
+    "anual": 17400,
+    "contado": 15817
+   },
+   "NP": {
+    "mensual": 196,
+    "anual": 2352,
+    "contado": 2139
+   }
+  }
+ },
+ {
+  "nombre": "S12_maternidad_18_49",
+  "entrada": {
+   "regional": "LPZ",
+   "aplicaSars": false,
+   "productos": [
+    "IG",
+    "RM",
+    "AD",
+    "MB",
+    "NP"
+   ],
+   "asegurados": [
+    {
+     "parentesco": "TITULAR",
+     "edad": 18,
+     "sexo": "FEMENINO_CON_MATERNIDAD"
+    },
+    {
+     "parentesco": "CONYUGE",
+     "edad": 50,
+     "sexo": "FEMENINO_CON_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 40,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 30,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 1,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 60,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 65,
+     "sexo": "MASCULINO"
+    }
+   ],
+   "redMax": {
+    "plan": "RM_700K"
+   },
+   "mundialBlue": {
+    "cobertura": "1MM",
+    "deducible": "5K",
+    "numeroHijos": 1
+   },
+   "naranjaPlus": {
+    "ambito": "MUNDIAL_CON_BOLIVIA",
+    "valorAsegurado": "1MM",
+    "deducible": "10K"
+   }
+  },
+  "personas": [
+   {
+    "idx": 0,
+    "excel": {
+     "IG": "N/A",
+     "RM": "N/A",
+     "AD": "N/A",
+     "MB": 109,
+     "NP": "N/A"
+    },
+    "esperado": {
+     "IG": "N/A",
+     "RM": "N/A",
+     "AD": "N/A",
+     "MB": 109,
+     "NP": "N/A"
+    }
+   },
+   {
+    "idx": 1,
+    "excel": {
+     "IG": "N/A",
+     "RM": "N/A",
+     "AD": "N/A",
+     "MB": 224,
+     "NP": 61
+    },
+    "esperado": {
+     "IG": "N/A",
+     "RM": "N/A",
+     "AD": "N/A",
+     "MB": 224,
+     "NP": 61
+    }
+   },
+   {
+    "idx": 2,
+    "excel": {
+     "IG": 98,
+     "RM": 637,
+     "AD": 231,
+     "MB": 176,
+     "NP": 44
+    },
+    "esperado": {
+     "IG": 98,
+     "RM": 637,
+     "AD": 231,
+     "MB": 176,
+     "NP": 44
+    }
+   },
+   {
+    "idx": 3,
+    "excel": {
+     "IG": 66,
+     "RM": 412,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    },
+    "esperado": {
+     "IG": 66,
+     "RM": 412,
+     "AD": 231,
+     "MB": 141,
+     "NP": 34
+    }
+   },
+   {
+    "idx": 4,
+    "excel": {
+     "IG": 92,
+     "RM": 592,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 92,
+     "RM": 592,
+     "AD": 231,
+     "MB": 44,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 5,
+    "excel": {
+     "IG": 190,
+     "RM": 1281,
+     "AD": 231,
+     "MB": 281,
+     "NP": 112
+    },
+    "esperado": {
+     "IG": 190,
+     "RM": 1281,
+     "AD": 231,
+     "MB": 281,
+     "NP": 112
+    }
+   },
+   {
+    "idx": 6,
+    "excel": {
+     "IG": "N/A",
+     "RM": "N/A",
+     "AD": "N/A",
+     "MB": 424,
+     "NP": "N/A"
+    },
+    "esperado": {
+     "IG": "N/A",
+     "RM": "N/A",
+     "AD": "N/A",
+     "MB": 424,
+     "NP": "N/A"
+    }
+   }
+  ],
+  "totales": {
+   "IG": {
+    "mensual": 446,
+    "anual": 5352,
+    "contado": 5219
+   },
+   "RM": {
+    "mensual": 2922,
+    "anual": 35064,
+    "contado": 34188
+   },
+   "AD": {
+    "mensual": 924,
+    "anual": 11088,
+    "contado": 10811
+   },
+   "MB": {
+    "mensual": 1399,
+    "anual": 16788,
+    "contado": 15261
+   },
+   "NP": {
+    "mensual": 279,
+    "anual": 3348,
+    "contado": 3044
+   }
+  }
+ },
+ {
+  "nombre": "S13_MB_2MM_1K_h3",
+  "entrada": {
+   "regional": "LPZ",
+   "aplicaSars": false,
+   "productos": [
+    "IG",
+    "RM",
+    "AD",
+    "MB",
+    "NP"
+   ],
+   "asegurados": [
+    {
+     "parentesco": "TITULAR",
+     "edad": 30,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "CONYUGE",
+     "edad": 28,
+     "sexo": "FEMENINO_CON_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 5,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 20,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 24,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 25,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 0,
+     "sexo": "MASCULINO"
+    }
+   ],
+   "redMax": {
+    "plan": "RM_700K"
+   },
+   "mundialBlue": {
+    "cobertura": "2MM",
+    "deducible": "1K",
+    "numeroHijos": 3
+   },
+   "naranjaPlus": {
+    "ambito": "MUNDIAL_CON_BOLIVIA",
+    "valorAsegurado": "1MM",
+    "deducible": "10K"
+   }
+  },
+  "personas": [
+   {
+    "idx": 0,
+    "excel": {
+     "IG": 66,
+     "RM": 412,
+     "AD": 231,
+     "MB": 464,
+     "NP": 34
+    },
+    "esperado": {
+     "IG": 66,
+     "RM": 412,
+     "AD": 231,
+     "MB": 464,
+     "NP": 34
+    }
+   },
+   {
+    "idx": 1,
+    "excel": {
+     "IG": 91,
+     "RM": 584,
+     "AD": 231,
+     "MB": 403,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 91,
+     "RM": 582,
+     "AD": 231,
+     "MB": 403,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 2,
+    "excel": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 130,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 130,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 3,
+    "excel": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 130,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 130,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 4,
+    "excel": {
+     "IG": 62,
+     "RM": 382,
+     "AD": 231,
+     "MB": 130,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 62,
+     "RM": 382,
+     "AD": 231,
+     "MB": 130,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 5,
+    "excel": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 403,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 403,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 6,
+    "excel": {
+     "IG": 91,
+     "RM": 584,
+     "AD": 231,
+     "MB": 130,
+     "NP": 0
+    },
+    "esperado": {
+     "IG": 91,
+     "RM": 584,
+     "AD": 231,
+     "MB": 130,
+     "NP": 0
+    }
+   }
+  ],
+  "totales": {
+   "IG": {
+    "mensual": 520,
+    "anual": 6240,
+    "contado": 6084
+   },
+   "RM": {
+    "mensual": 3271,
+    "anual": 39252,
+    "contado": 38271
+   },
+   "AD": {
+    "mensual": 1617,
+    "anual": 19404,
+    "contado": 18919
+   },
+   "MB": {
+    "mensual": 1790,
+    "anual": 21480,
+    "contado": 19526
+   },
+   "NP": {
+    "mensual": 174,
+    "anual": 2088,
+    "contado": 1899
+   }
+  }
+ },
+ {
+  "nombre": "S14_MB_5MM_20K_h5",
+  "entrada": {
+   "regional": "LPZ",
+   "aplicaSars": false,
+   "productos": [
+    "IG",
+    "RM",
+    "AD",
+    "MB",
+    "NP"
+   ],
+   "asegurados": [
+    {
+     "parentesco": "TITULAR",
+     "edad": 30,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "CONYUGE",
+     "edad": 28,
+     "sexo": "FEMENINO_CON_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 5,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 20,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 24,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 25,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 0,
+     "sexo": "MASCULINO"
+    }
+   ],
+   "redMax": {
+    "plan": "RM_700K"
+   },
+   "mundialBlue": {
+    "cobertura": "5MM",
+    "deducible": "20K",
+    "numeroHijos": 5
+   },
+   "naranjaPlus": {
+    "ambito": "MUNDIAL_CON_BOLIVIA",
+    "valorAsegurado": "1MM",
+    "deducible": "10K"
+   }
+  },
+  "personas": [
+   {
+    "idx": 0,
+    "excel": {
+     "IG": 66,
+     "RM": 412,
+     "AD": 231,
+     "MB": 242,
+     "NP": 34
+    },
+    "esperado": {
+     "IG": 66,
+     "RM": 412,
+     "AD": 231,
+     "MB": 242,
+     "NP": 34
+    }
+   },
+   {
+    "idx": 1,
+    "excel": {
+     "IG": 91,
+     "RM": 584,
+     "AD": 231,
+     "MB": 208,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 91,
+     "RM": 582,
+     "AD": 231,
+     "MB": 208,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 2,
+    "excel": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 37.8,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 38,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 3,
+    "excel": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 37.8,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 38,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 4,
+    "excel": {
+     "IG": 62,
+     "RM": 382,
+     "AD": 231,
+     "MB": 37.8,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 62,
+     "RM": 382,
+     "AD": 231,
+     "MB": 38,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 5,
+    "excel": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 208,
+     "NP": 28
+    },
+    "esperado": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 208,
+     "NP": 28
+    }
+   },
+   {
+    "idx": 6,
+    "excel": {
+     "IG": 91,
+     "RM": 584,
+     "AD": 231,
+     "MB": 37.8,
+     "NP": 0
+    },
+    "esperado": {
+     "IG": 91,
+     "RM": 584,
+     "AD": 231,
+     "MB": 38,
+     "NP": 0
+    }
+   }
+  ],
+  "totales": {
+   "IG": {
+    "mensual": 520,
+    "anual": 6240,
+    "contado": 6084
+   },
+   "RM": {
+    "mensual": 3271,
+    "anual": 39252,
+    "contado": 38271
+   },
+   "AD": {
+    "mensual": 1617,
+    "anual": 19404,
+    "contado": 18919
+   },
+   "MB": {
+    "mensual": 810,
+    "anual": 9720,
+    "contado": 8836
+   },
+   "NP": {
+    "mensual": 174,
+    "anual": 2088,
+    "contado": 1899
+   }
+  }
+ },
+ {
+  "nombre": "S16_naranja_bolivia50k",
+  "entrada": {
+   "regional": "LPZ",
+   "aplicaSars": false,
+   "productos": [
+    "IG",
+    "RM",
+    "AD",
+    "MB",
+    "NP"
+   ],
+   "asegurados": [
+    {
+     "parentesco": "TITULAR",
+     "edad": 30,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "CONYUGE",
+     "edad": 28,
+     "sexo": "FEMENINO_CON_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 5,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 20,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 24,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 25,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 0,
+     "sexo": "MASCULINO"
+    }
+   ],
+   "redMax": {
+    "plan": "RM_700K"
+   },
+   "mundialBlue": {
+    "cobertura": "1MM",
+    "deducible": "5K",
+    "numeroHijos": 1
+   },
+   "naranjaPlus": {
+    "ambito": "BOLIVIA",
+    "valorAsegurado": "50K",
+    "deducible": "5K"
+   }
+  },
+  "personas": [
+   {
+    "idx": 0,
+    "excel": {
+     "IG": 66,
+     "RM": 412,
+     "AD": 231,
+     "MB": 141,
+     "NP": 20
+    },
+    "esperado": {
+     "IG": 66,
+     "RM": 412,
+     "AD": 231,
+     "MB": 141,
+     "NP": 20
+    }
+   },
+   {
+    "idx": 1,
+    "excel": {
+     "IG": 91,
+     "RM": 584,
+     "AD": 231,
+     "MB": 121,
+     "NP": 14
+    },
+    "esperado": {
+     "IG": 91,
+     "RM": 582,
+     "AD": 231,
+     "MB": 121,
+     "NP": 14
+    }
+   },
+   {
+    "idx": 2,
+    "excel": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 44,
+     "NP": 14
+    },
+    "esperado": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 44,
+     "NP": 14
+    }
+   },
+   {
+    "idx": 3,
+    "excel": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 44,
+     "NP": 14
+    },
+    "esperado": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 44,
+     "NP": 14
+    }
+   },
+   {
+    "idx": 4,
+    "excel": {
+     "IG": 62,
+     "RM": 382,
+     "AD": 231,
+     "MB": 44,
+     "NP": 14
+    },
+    "esperado": {
+     "IG": 62,
+     "RM": 382,
+     "AD": 231,
+     "MB": 44,
+     "NP": 14
+    }
+   },
+   {
+    "idx": 5,
+    "excel": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 121,
+     "NP": 14
+    },
+    "esperado": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 121,
+     "NP": 14
+    }
+   },
+   {
+    "idx": 6,
+    "excel": {
+     "IG": 91,
+     "RM": 584,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    },
+    "esperado": {
+     "IG": 91,
+     "RM": 584,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    }
+   }
+  ],
+  "totales": {
+   "IG": {
+    "mensual": 520,
+    "anual": 6240,
+    "contado": 6084
+   },
+   "RM": {
+    "mensual": 3271,
+    "anual": 39252,
+    "contado": 38271
+   },
+   "AD": {
+    "mensual": 1617,
+    "anual": 19404,
+    "contado": 18919
+   },
+   "MB": {
+    "mensual": 559,
+    "anual": 6708,
+    "contado": 6098
+   },
+   "NP": {
+    "mensual": 90,
+    "anual": 1080,
+    "contado": 982
+   }
+  }
+ },
+ {
+  "nombre": "S17_naranja_bolivia250k",
+  "entrada": {
+   "regional": "LPZ",
+   "aplicaSars": false,
+   "productos": [
+    "IG",
+    "RM",
+    "AD",
+    "MB",
+    "NP"
+   ],
+   "asegurados": [
+    {
+     "parentesco": "TITULAR",
+     "edad": 30,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "CONYUGE",
+     "edad": 28,
+     "sexo": "FEMENINO_CON_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 5,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 20,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 24,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 25,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 0,
+     "sexo": "MASCULINO"
+    }
+   ],
+   "redMax": {
+    "plan": "RM_700K"
+   },
+   "mundialBlue": {
+    "cobertura": "1MM",
+    "deducible": "5K",
+    "numeroHijos": 1
+   },
+   "naranjaPlus": {
+    "ambito": "BOLIVIA",
+    "valorAsegurado": "250K",
+    "deducible": "10K"
+   }
+  },
+  "personas": [
+   {
+    "idx": 0,
+    "excel": {
+     "IG": 66,
+     "RM": 412,
+     "AD": 231,
+     "MB": 141,
+     "NP": 20
+    },
+    "esperado": {
+     "IG": 66,
+     "RM": 412,
+     "AD": 231,
+     "MB": 141,
+     "NP": 20
+    }
+   },
+   {
+    "idx": 1,
+    "excel": {
+     "IG": 91,
+     "RM": 584,
+     "AD": 231,
+     "MB": 121,
+     "NP": 14
+    },
+    "esperado": {
+     "IG": 91,
+     "RM": 582,
+     "AD": 231,
+     "MB": 121,
+     "NP": 14
+    }
+   },
+   {
+    "idx": 2,
+    "excel": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 44,
+     "NP": 14
+    },
+    "esperado": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 44,
+     "NP": 14
+    }
+   },
+   {
+    "idx": 3,
+    "excel": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 44,
+     "NP": 14
+    },
+    "esperado": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 44,
+     "NP": 14
+    }
+   },
+   {
+    "idx": 4,
+    "excel": {
+     "IG": 62,
+     "RM": 382,
+     "AD": 231,
+     "MB": 44,
+     "NP": 14
+    },
+    "esperado": {
+     "IG": 62,
+     "RM": 382,
+     "AD": 231,
+     "MB": 44,
+     "NP": 14
+    }
+   },
+   {
+    "idx": 5,
+    "excel": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 121,
+     "NP": 14
+    },
+    "esperado": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 121,
+     "NP": 14
+    }
+   },
+   {
+    "idx": 6,
+    "excel": {
+     "IG": 91,
+     "RM": 584,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    },
+    "esperado": {
+     "IG": 91,
+     "RM": 584,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    }
+   }
+  ],
+  "totales": {
+   "IG": {
+    "mensual": 520,
+    "anual": 6240,
+    "contado": 6084
+   },
+   "RM": {
+    "mensual": 3271,
+    "anual": 39252,
+    "contado": 38271
+   },
+   "AD": {
+    "mensual": 1617,
+    "anual": 19404,
+    "contado": 18919
+   },
+   "MB": {
+    "mensual": 559,
+    "anual": 6708,
+    "contado": 6098
+   },
+   "NP": {
+    "mensual": 90,
+    "anual": 1080,
+    "contado": 982
+   }
+  }
+ },
+ {
+  "nombre": "S18_naranja_mundial150k",
+  "entrada": {
+   "regional": "LPZ",
+   "aplicaSars": false,
+   "productos": [
+    "IG",
+    "RM",
+    "AD",
+    "MB",
+    "NP"
+   ],
+   "asegurados": [
+    {
+     "parentesco": "TITULAR",
+     "edad": 30,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "CONYUGE",
+     "edad": 28,
+     "sexo": "FEMENINO_CON_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 5,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 20,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 24,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 25,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 0,
+     "sexo": "MASCULINO"
+    }
+   ],
+   "redMax": {
+    "plan": "RM_700K"
+   },
+   "mundialBlue": {
+    "cobertura": "1MM",
+    "deducible": "5K",
+    "numeroHijos": 1
+   },
+   "naranjaPlus": {
+    "ambito": "MUNDIAL_CON_BOLIVIA",
+    "valorAsegurado": "150K",
+    "deducible": "5K"
+   }
+  },
+  "personas": [
+   {
+    "idx": 0,
+    "excel": {
+     "IG": 66,
+     "RM": 412,
+     "AD": 231,
+     "MB": 141,
+     "NP": 30
+    },
+    "esperado": {
+     "IG": 66,
+     "RM": 412,
+     "AD": 231,
+     "MB": 141,
+     "NP": 30
+    }
+   },
+   {
+    "idx": 1,
+    "excel": {
+     "IG": 91,
+     "RM": 584,
+     "AD": 231,
+     "MB": 121,
+     "NP": 23
+    },
+    "esperado": {
+     "IG": 91,
+     "RM": 582,
+     "AD": 231,
+     "MB": 121,
+     "NP": 23
+    }
+   },
+   {
+    "idx": 2,
+    "excel": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 44,
+     "NP": 23
+    },
+    "esperado": {
+     "IG": 68,
+     "RM": 427,
+     "AD": 231,
+     "MB": 44,
+     "NP": 23
+    }
+   },
+   {
+    "idx": 3,
+    "excel": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 44,
+     "NP": 23
+    },
+    "esperado": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 44,
+     "NP": 23
+    }
+   },
+   {
+    "idx": 4,
+    "excel": {
+     "IG": 62,
+     "RM": 382,
+     "AD": 231,
+     "MB": 44,
+     "NP": 23
+    },
+    "esperado": {
+     "IG": 62,
+     "RM": 382,
+     "AD": 231,
+     "MB": 44,
+     "NP": 23
+    }
+   },
+   {
+    "idx": 5,
+    "excel": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 121,
+     "NP": 23
+    },
+    "esperado": {
+     "IG": 71,
+     "RM": 442,
+     "AD": 231,
+     "MB": 121,
+     "NP": 23
+    }
+   },
+   {
+    "idx": 6,
+    "excel": {
+     "IG": 91,
+     "RM": 584,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    },
+    "esperado": {
+     "IG": 91,
+     "RM": 584,
+     "AD": 231,
+     "MB": 44,
+     "NP": 0
+    }
+   }
+  ],
+  "totales": {
+   "IG": {
+    "mensual": 520,
+    "anual": 6240,
+    "contado": 6084
+   },
+   "RM": {
+    "mensual": 3271,
+    "anual": 39252,
+    "contado": 38271
+   },
+   "AD": {
+    "mensual": 1617,
+    "anual": 19404,
+    "contado": 18919
+   },
+   "MB": {
+    "mensual": 559,
+    "anual": 6708,
+    "contado": 6098
+   },
+   "NP": {
+    "mensual": 145,
+    "anual": 1740,
+    "contado": 1582
+   }
+  }
+ },
+ {
+  "nombre": "S21_productos_apagados",
+  "entrada": {
+   "regional": "LPZ",
+   "aplicaSars": false,
+   "productos": [
+    "NP"
+   ],
+   "asegurados": [
+    {
+     "parentesco": "TITULAR",
+     "edad": 30,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "CONYUGE",
+     "edad": 28,
+     "sexo": "FEMENINO_CON_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 5,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 20,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 24,
+     "sexo": "MASCULINO"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 25,
+     "sexo": "FEMENINO_SIN_MATERNIDAD"
+    },
+    {
+     "parentesco": "DEPENDIENTE",
+     "edad": 0,
+     "sexo": "MASCULINO"
+    }
+   ],
+   "redMax": {
+    "plan": "RM_700K"
+   },
+   "mundialBlue": {
+    "cobertura": "1MM",
+    "deducible": "5K",
+    "numeroHijos": 1
+   },
+   "naranjaPlus": {
+    "ambito": "MUNDIAL_CON_BOLIVIA",
+    "valorAsegurado": "1MM",
+    "deducible": "10K"
+   }
+  },
+  "personas": [
+   {
+    "idx": 0,
+    "excel": {
+     "NP": 34
+    },
+    "esperado": {
+     "NP": 34
+    }
+   },
+   {
+    "idx": 1,
+    "excel": {
+     "NP": 28
+    },
+    "esperado": {
+     "NP": 28
+    }
+   },
+   {
+    "idx": 2,
+    "excel": {
+     "NP": 28
+    },
+    "esperado": {
+     "NP": 28
+    }
+   },
+   {
+    "idx": 3,
+    "excel": {
+     "NP": 28
+    },
+    "esperado": {
+     "NP": 28
+    }
+   },
+   {
+    "idx": 4,
+    "excel": {
+     "NP": 28
+    },
+    "esperado": {
+     "NP": 28
+    }
+   },
+   {
+    "idx": 5,
+    "excel": {
+     "NP": 28
+    },
+    "esperado": {
+     "NP": 28
+    }
+   },
+   {
+    "idx": 6,
+    "excel": {
+     "NP": 0
+    },
+    "esperado": {
+     "NP": 0
+    }
+   }
+  ],
+  "totales": {
+   "NP": {
+    "mensual": 174,
+    "anual": 2088,
+    "contado": 1899
+   }
+  }
+ }
+]

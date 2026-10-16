@@ -1,0 +1,12 @@
+**/node_modules
+**/dist
+**/.next
+.git
+apps/web
+docs
+*.log
+.env
+**/.env*
+!**/.env.example
+packages/motor-precios/fixtures
+packages/motor-precios/informes

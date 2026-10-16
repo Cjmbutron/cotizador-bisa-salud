@@ -1,0 +1,12 @@
+{
+  "name": "cotizador-bisa-salud",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w @bisa/motor-precios && npm run build -w @bisa/api",
+    "test": "npm run build -w @bisa/motor-precios && npm run test -w @bisa/motor-precios && npm run test -w @bisa/api"
+  }
+}

@@ -1,0 +1,709 @@
+{
+ "escenarios": 53,
+ "comparaciones": 1855,
+ "iguales": 1768,
+ "diferenciasIntencionales": {
+  "ERROR_EXCEL_INFINITY_SARS": 6,
+  "ADVANCE_MATERNIDAD_FUERA_DE_RANGO": 1,
+  "MATERNIDAD_IG_RM": 60,
+  "REDONDEO_HIJO_MB": 20
+ },
+ "detalle": [
+  {
+   "escenario": "IGR_BORDE_SCZ",
+   "asegurado": 0,
+   "producto": "IG",
+   "categoria": "ERROR_EXCEL_INFINITY_SARS",
+   "excel": "#VALUE!",
+   "sistema": "N/A"
+  },
+  {
+   "escenario": "IGR_BORDE_SCZ",
+   "asegurado": 1,
+   "producto": "IG",
+   "categoria": "ERROR_EXCEL_INFINITY_SARS",
+   "excel": "#VALUE!",
+   "sistema": "N/A"
+  },
+  {
+   "escenario": "IGR_BORDE_SCZ",
+   "asegurado": 1,
+   "producto": "AD",
+   "categoria": "ADVANCE_MATERNIDAD_FUERA_DE_RANGO",
+   "excel": 0,
+   "sistema": "N/A"
+  },
+  {
+   "escenario": "IGR_CHUQUISACA_NO",
+   "asegurado": 0,
+   "producto": "IG",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 85,
+   "sistema": 87
+  },
+  {
+   "escenario": "IGR_CHUQUISACA_NO",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 540,
+   "sistema": 560
+  },
+  {
+   "escenario": "IGR_CHUQUISACA_NO",
+   "asegurado": 1,
+   "producto": "IG",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 97,
+   "sistema": 111
+  },
+  {
+   "escenario": "IGR_CHUQUISACA_NO",
+   "asegurado": 1,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 629,
+   "sistema": 724
+  },
+  {
+   "escenario": "IGR_CHUQUISACA_SI",
+   "asegurado": 0,
+   "producto": "IG",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 95,
+   "sistema": 97
+  },
+  {
+   "escenario": "IGR_CHUQUISACA_SI",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 582,
+   "sistema": 602
+  },
+  {
+   "escenario": "IGR_CHUQUISACA_SI",
+   "asegurado": 1,
+   "producto": "IG",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 104,
+   "sistema": 97
+  },
+  {
+   "escenario": "IGR_CHUQUISACA_SI",
+   "asegurado": 1,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 649,
+   "sistema": 602
+  },
+  {
+   "escenario": "IGR_COCHABAMBA_NO",
+   "asegurado": 0,
+   "producto": "IG",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 89,
+   "sistema": 88
+  },
+  {
+   "escenario": "IGR_COCHABAMBA_NO",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 521,
+   "sistema": 518
+  },
+  {
+   "escenario": "IGR_COCHABAMBA_NO",
+   "asegurado": 1,
+   "producto": "IG",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 106,
+   "sistema": 117
+  },
+  {
+   "escenario": "IGR_COCHABAMBA_NO",
+   "asegurado": 1,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 640,
+   "sistema": 720
+  },
+  {
+   "escenario": "IGR_COCHABAMBA_SI",
+   "asegurado": 0,
+   "producto": "IG",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 99,
+   "sistema": 98
+  },
+  {
+   "escenario": "IGR_COCHABAMBA_SI",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 640,
+   "sistema": 637
+  },
+  {
+   "escenario": "IGR_COCHABAMBA_SI",
+   "asegurado": 1,
+   "producto": "IG",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 106,
+   "sistema": 100
+  },
+  {
+   "escenario": "IGR_COCHABAMBA_SI",
+   "asegurado": 1,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 692,
+   "sistema": 645
+  },
+  {
+   "escenario": "IGR_LAPAZ_NO",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "IGR_LAPAZ_NO",
+   "asegurado": 1,
+   "producto": "IG",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 108,
+   "sistema": 118
+  },
+  {
+   "escenario": "IGR_LAPAZ_NO",
+   "asegurado": 1,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 704,
+   "sistema": 777
+  },
+  {
+   "escenario": "IGR_LAPAZ_SI",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 626,
+   "sistema": 624
+  },
+  {
+   "escenario": "IGR_LAPAZ_SI",
+   "asegurado": 1,
+   "producto": "IG",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 108,
+   "sistema": 104
+  },
+  {
+   "escenario": "IGR_LAPAZ_SI",
+   "asegurado": 1,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 679,
+   "sistema": 647
+  },
+  {
+   "escenario": "IGR_SANTACRUZ_NO",
+   "asegurado": 0,
+   "producto": "IG",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 111,
+   "sistema": 107
+  },
+  {
+   "escenario": "IGR_SANTACRUZ_NO",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 654,
+   "sistema": 629
+  },
+  {
+   "escenario": "IGR_SANTACRUZ_NO",
+   "asegurado": 1,
+   "producto": "IG",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 127,
+   "sistema": 138
+  },
+  {
+   "escenario": "IGR_SANTACRUZ_NO",
+   "asegurado": 1,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 766,
+   "sistema": 846
+  },
+  {
+   "escenario": "IGR_SANTACRUZ_SI",
+   "asegurado": 0,
+   "producto": "IG",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 121,
+   "sistema": 117
+  },
+  {
+   "escenario": "IGR_SANTACRUZ_SI",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 703,
+   "sistema": 678
+  },
+  {
+   "escenario": "IGR_SANTACRUZ_SI",
+   "asegurado": 1,
+   "producto": "IG",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 132,
+   "sistema": 119
+  },
+  {
+   "escenario": "IGR_SANTACRUZ_SI",
+   "asegurado": 1,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 778,
+   "sistema": 693
+  },
+  {
+   "escenario": "IGR_SARS_FUERA_RANGO",
+   "asegurado": 0,
+   "producto": "IG",
+   "categoria": "ERROR_EXCEL_INFINITY_SARS",
+   "excel": "#VALUE!",
+   "sistema": "N/A"
+  },
+  {
+   "escenario": "IGR_SARS_FUERA_RANGO",
+   "asegurado": 1,
+   "producto": "IG",
+   "categoria": "ERROR_EXCEL_INFINITY_SARS",
+   "excel": "#VALUE!",
+   "sistema": "N/A"
+  },
+  {
+   "escenario": "IGR_SARS_FUERA_RANGO",
+   "asegurado": 3,
+   "producto": "IG",
+   "categoria": "ERROR_EXCEL_INFINITY_SARS",
+   "excel": "#VALUE!",
+   "sistema": "N/A"
+  },
+  {
+   "escenario": "IGR_SARS_FUERA_RANGO",
+   "asegurado": 5,
+   "producto": "IG",
+   "categoria": "ERROR_EXCEL_INFINITY_SARS",
+   "excel": "#VALUE!",
+   "sistema": "N/A"
+  },
+  {
+   "escenario": "IGR_TARIJA_NO",
+   "asegurado": 0,
+   "producto": "IG",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 85,
+   "sistema": 87
+  },
+  {
+   "escenario": "IGR_TARIJA_NO",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 491,
+   "sistema": 511
+  },
+  {
+   "escenario": "IGR_TARIJA_NO",
+   "asegurado": 1,
+   "producto": "IG",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 97,
+   "sistema": 111
+  },
+  {
+   "escenario": "IGR_TARIJA_NO",
+   "asegurado": 1,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 580,
+   "sistema": 675
+  },
+  {
+   "escenario": "IGR_TARIJA_SI",
+   "asegurado": 0,
+   "producto": "IG",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 95,
+   "sistema": 97
+  },
+  {
+   "escenario": "IGR_TARIJA_SI",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 610,
+   "sistema": 630
+  },
+  {
+   "escenario": "IGR_TARIJA_SI",
+   "asegurado": 1,
+   "producto": "IG",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 104,
+   "sistema": 97
+  },
+  {
+   "escenario": "IGR_TARIJA_SI",
+   "asegurado": 1,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 677,
+   "sistema": 630
+  },
+  {
+   "escenario": "MB_1MM_10K",
+   "asegurado": 0,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 14.4,
+   "sistema": 15
+  },
+  {
+   "escenario": "MB_1MM_10K",
+   "asegurado": 2,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 14.4,
+   "sistema": 15
+  },
+  {
+   "escenario": "MB_1MM_2K",
+   "asegurado": 0,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 72.5,
+   "sistema": 73
+  },
+  {
+   "escenario": "MB_1MM_2K",
+   "asegurado": 2,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 72.5,
+   "sistema": 73
+  },
+  {
+   "escenario": "MB_1MM_5K",
+   "asegurado": 0,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 24.5,
+   "sistema": 25
+  },
+  {
+   "escenario": "MB_1MM_5K",
+   "asegurado": 2,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 24.5,
+   "sistema": 25
+  },
+  {
+   "escenario": "MB_2MM_1K",
+   "asegurado": 0,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 133.5,
+   "sistema": 134
+  },
+  {
+   "escenario": "MB_2MM_1K",
+   "asegurado": 2,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 133.5,
+   "sistema": 134
+  },
+  {
+   "escenario": "MB_2MM_20K",
+   "asegurado": 0,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 40.5,
+   "sistema": 41
+  },
+  {
+   "escenario": "MB_2MM_20K",
+   "asegurado": 2,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 40.5,
+   "sistema": 41
+  },
+  {
+   "escenario": "MB_2MM_2K",
+   "asegurado": 0,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 113.333333333333,
+   "sistema": 114
+  },
+  {
+   "escenario": "MB_2MM_2K",
+   "asegurado": 2,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 113.333333333333,
+   "sistema": 114
+  },
+  {
+   "escenario": "MB_2MM_3K",
+   "asegurado": 0,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 45.5,
+   "sistema": 46
+  },
+  {
+   "escenario": "MB_2MM_3K",
+   "asegurado": 2,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 45.5,
+   "sistema": 46
+  },
+  {
+   "escenario": "MB_2MM_5K",
+   "asegurado": 0,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 37.2,
+   "sistema": 38
+  },
+  {
+   "escenario": "MB_2MM_5K",
+   "asegurado": 2,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 37.2,
+   "sistema": 38
+  },
+  {
+   "escenario": "MB_5MM_1K",
+   "asegurado": 0,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 242.333333333333,
+   "sistema": 243
+  },
+  {
+   "escenario": "MB_5MM_1K",
+   "asegurado": 2,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 242.333333333333,
+   "sistema": 243
+  },
+  {
+   "escenario": "MB_5MM_2K",
+   "asegurado": 0,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 139.75,
+   "sistema": 140
+  },
+  {
+   "escenario": "MB_5MM_2K",
+   "asegurado": 2,
+   "producto": "MB",
+   "categoria": "REDONDEO_HIJO_MB",
+   "excel": 139.75,
+   "sistema": 140
+  },
+  {
+   "escenario": "NP_L_100K_10K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_L_100K_5K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_L_250K_10K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_L_250K_5K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_L_50K_10K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_L_50K_5K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_MB_150K_100K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_MB_150K_10K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_MB_150K_50K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_MB_150K_5K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_MB_1MM_100K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_MB_1MM_10K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_MB_1MM_50K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_MB_1MM_5K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_MB_250K_100K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_MB_250K_10K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_MB_250K_50K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_MB_250K_5K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_MB_500K_100K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_MB_500K_10K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_MB_500K_50K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  },
+  {
+   "escenario": "NP_MB_500K_5K",
+   "asegurado": 0,
+   "producto": "RM",
+   "categoria": "MATERNIDAD_IG_RM",
+   "excel": 584,
+   "sistema": 582
+  }
+ ]
+}
