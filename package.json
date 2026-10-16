@@ -7,6 +7,8 @@
   ],
   "scripts": {
     "build": "npm run build -w @bisa/motor-precios && npm run build -w @bisa/api",
-    "test": "npm run build -w @bisa/motor-precios && npm run test -w @bisa/motor-precios && npm run test -w @bisa/api"
+    "test": "npm run build -w @bisa/motor-precios && npm run test -w @bisa/motor-precios && npm run test -w @bisa/api",
+    "dev:api": "npm run build -w @bisa/motor-precios && npm run dev -w @bisa/api",
+    "dev:web": "npm run dev -w @bisa/web"
   }
 }

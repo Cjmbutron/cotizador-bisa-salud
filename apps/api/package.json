@@ -4,6 +4,8 @@
   "private": true,
   "main": "dist/main.js",
   "scripts": {
+    "db:probar": "node --env-file=.env scripts/probar-db.cjs",
+    "dev": "tsc -p tsconfig.build.json && node --env-file=.env dist/main.js",
     "build": "tsc -p tsconfig.build.json",
     "start": "node dist/main.js",
     "typecheck": "tsc --noEmit",
