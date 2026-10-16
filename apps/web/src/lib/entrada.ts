@@ -24,20 +24,16 @@ export function aEntrada(f: FormCotizacion) {
   return entrada;
 }
 
-/** Problemas de forma que se pueden detectar antes de llamar a la API (las reglas de negocio las valida el motor). */
-export function problemasDeForma(f: FormCotizacion, paso: number): string[] {
+/** Lo que falta para poder calcular (el nombre del titular no hace falta: solo se exige al guardar). Las reglas de negocio las valida el motor. */
+export function faltantesParaCalcular(f: FormCotizacion): string[] {
   const p: string[] = [];
-  if (paso >= 1) {
-    if (!f.titularNombre.trim()) p.push('Escriba el nombre del titular.');
-    if (!f.regional) p.push('Seleccione la regional.');
-  }
-  if (paso >= 2 && f.productos.length === 0) p.push('Seleccione al menos un producto.');
-  if (paso >= 3) {
-    f.asegurados.forEach((a, i) => {
-      if (a.edad === '' || !/^\d+$/.test(a.edad)) p.push(`Asegurado ${i + 1}: la edad debe ser un número entero.`);
-    });
-    if (!f.asegurados.some((a) => a.parentesco === 'TITULAR')) p.push('Debe haber un titular.');
-  }
+  if (f.productos.length === 0) p.push('Seleccione al menos un producto.');
+  f.asegurados.forEach((a, i) => {
+    const quien = a.parentesco === 'TITULAR' ? 'del titular' : `del asegurado ${i + 1}`;
+    if (a.edad === '') p.push(`Falta la edad ${quien}.`);
+    else if (!/^\d+$/.test(a.edad)) p.push(`La edad ${quien} debe ser un número entero.`);
+  });
+  if (!f.asegurados.some((a) => a.parentesco === 'TITULAR')) p.push('Debe haber un titular.');
   return p;
 }
 

@@ -5,7 +5,7 @@ import { api, cerrarSesion, leerToken } from '@/lib/api';
 import { ROLES_ADMIN, ROLES_PLANTILLAS, tieneRol, Yo, YoContext } from '@/lib/yo';
 
 /** Marco común: exige sesión y muestra la navegación. */
-export default function Shell({ children }: { children: React.ReactNode }) {
+export default function Shell({ children, ancho = false }: { children: React.ReactNode; ancho?: boolean }) {
   const [yo, setYo] = useState<Yo | null>(null);
   useEffect(() => {
     if (!leerToken()) { window.location.href = '/login'; return; }
@@ -26,7 +26,7 @@ export default function Shell({ children }: { children: React.ReactNode }) {
         <span className="quien">{yo.email}</span>
         <button onClick={cerrarSesion}>Salir</button>
       </header>
-      <main>{children}</main>
+      <main className={ancho ? 'ancho' : undefined}>{children}</main>
     </YoContext.Provider>
   );
 }

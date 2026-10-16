@@ -9,11 +9,22 @@
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--fondo); color: var(--texto); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
 a { color: var(--primario); }
-.barra { background: var(--superficie); border-bottom: 1px solid var(--borde); padding: 10px 24px; display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
-.barra strong { font-size: 16px; }
-.barra nav { display: flex; gap: 16px; flex: 1; }
-.barra .quien { color: var(--suave); font-size: 13px; }
+/* Barra superior fija: no se mueve al bajar por la página. Una sola línea en computador; en celular, el menú pasa a una segunda línea que se desliza. */
+.barra { position: sticky; top: 0; z-index: 30; background: var(--superficie); border-bottom: 1px solid var(--borde); box-shadow: 0 1px 6px rgba(0, 0, 0, .08);
+  padding: 10px 24px; display: flex; gap: 20px; align-items: center; }
+.barra strong { font-size: 16px; white-space: nowrap; }
+.barra nav { display: flex; gap: 16px; flex: 1; min-width: 0; overflow-x: auto; white-space: nowrap; scrollbar-width: thin; }
+.barra nav a { padding: 6px 0; }
+.barra .quien { color: var(--suave); font-size: 13px; max-width: 240px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+@media (max-width: 760px) {
+  .barra { flex-wrap: wrap; gap: 4px 12px; padding: 8px 16px; }
+  .barra strong { flex: 1; }
+  .barra .quien { display: none; }
+  .barra button { min-height: 34px; padding: 4px 12px; }
+  .barra nav { order: 3; flex: 0 0 100%; gap: 20px; }
+}
 main { max-width: 1040px; margin: 0 auto; padding: 24px 16px 64px; }
+main.ancho { max-width: 1280px; }
 h1 { font-size: 22px; margin: 0 0 4px; } h2 { font-size: 17px; margin: 24px 0 8px; }
 .sub { color: var(--suave); margin: 0 0 20px; }
 .tarjeta { background: var(--superficie); border: 1px solid var(--borde); border-radius: 10px; padding: 18px; margin-bottom: 16px; }
@@ -56,3 +67,36 @@ details ol { margin: 6px 0 0; padding-left: 20px; color: var(--suave); font-size
 .grande { font-size: 18px; font-weight: 600; }
 .filtros { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; align-items: end; } .filtros > div { min-width: 160px; }
 .vacio { color: var(--suave); text-align: center; padding: 28px 0; }
+
+/* Pantalla única de cotizar: formulario a la izquierda y resultado en vivo a la derecha (fijo bajo la barra). En pantallas pequeñas, una columna y barra inferior con el total. */
+.cotizar { display: grid; gap: 16px; grid-template-columns: minmax(0, 1fr); align-items: start; }
+.cotizar-resultado .tarjeta { margin-bottom: 0; }
+.cotizar-resultado .tarjeta.actualizando { opacity: .6; transition: opacity .15s; }
+.cotizar-resultado h2:first-child { margin-top: 0; }
+.cotizar .tarjeta h2 { margin: 0 0 12px; }
+.productos { display: grid; gap: 10px; }
+.producto { border: 1px solid var(--borde); border-radius: 10px; padding: 10px 12px; background: var(--superficie); }
+.producto.activo { border-color: var(--primario); }
+.producto .marca { border: 0; padding: 4px 0; background: none; font-weight: 600; }
+.opciones-producto { margin-top: 8px; padding-top: 12px; border-top: 1px dashed var(--borde); }
+.ayuda { display: block; margin-top: 4px; font-size: 12px; color: var(--suave); }
+.faltan { margin: 0; padding-left: 20px; color: var(--suave); font-size: 14px; }
+.barra-total { display: none; }
+@media (min-width: 1000px) {
+  .cotizar { grid-template-columns: minmax(0, 1fr) minmax(380px, 460px); }
+  .cotizar-resultado { position: sticky; top: 72px; max-height: calc(100vh - 88px); overflow-y: auto; }
+}
+@media (max-width: 999px) {
+  .cotizar-form { order: 1; } .cotizar-resultado { order: 2; }
+  main.ancho { padding-bottom: 110px; }
+  .barra-total { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 25; gap: 12px; align-items: center; padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+    background: var(--superficie); border-top: 1px solid var(--borde); box-shadow: 0 -2px 8px rgba(0, 0, 0, .1); }
+  .barra-total-importes { flex: 1; min-width: 0; display: flex; flex-wrap: wrap; gap: 2px 14px; font-size: 14px; }
+  .barra-total-importes small { color: var(--suave); }
+  .cotizar-resultado { scroll-margin-top: 96px; }
+}
+@media (max-width: 760px) {
+  .fila-aseg { border: 1px solid var(--borde); border-radius: 10px; padding: 12px; margin-bottom: 10px; background: var(--fondo); }
+  .cotizar .tarjeta { padding: 14px; }
+  .tarjeta .rejilla { grid-template-columns: 1fr; }
+}
